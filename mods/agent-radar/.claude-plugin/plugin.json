@@ -1,0 +1,16 @@
+{
+  "name": "agent-radar",
+  "version": "0.1.0",
+  "description": "One line above the prompt for each running subagent, plus a detail panel. | Una línea viva por cada subagente en marcha, y un panel con lo que hace cada uno",
+  "author": {
+    "name": "Dani"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "keywords": [
+    "claude-code",
+    "subagents",
+    "monitor",
+    "agents"
+  ]
+}

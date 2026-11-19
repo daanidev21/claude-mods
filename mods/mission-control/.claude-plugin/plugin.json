@@ -1,0 +1,16 @@
+{
+  "name": "mission-control",
+  "version": "0.1.0",
+  "description": "Subagent tree and the files each one touched. | Panel para entender qué hacen los subagentes: quién lanzó a quién, qué hace cada uno y qué archivos toca",
+  "author": {
+    "name": "Dani"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "keywords": [
+    "claude-code",
+    "subagents",
+    "agent-tree",
+    "files"
+  ]
+}

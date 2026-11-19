@@ -1,0 +1,17 @@
+{
+  "name": "heatmap",
+  "version": "0.1.0",
+  "description": "Activity map by day with streak and time per project, computed locally. | Mapa de actividad estilo GitHub con tu tiempo en Claude Code, calculado solo en tu ordenador",
+  "author": {
+    "name": "Dani"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "keywords": [
+    "claude-code",
+    "activity",
+    "productivity",
+    "heatmap",
+    "time-tracking"
+  ]
+}

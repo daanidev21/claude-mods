@@ -1,0 +1,17 @@
+{
+  "name": "prompt-band",
+  "version": "0.1.0",
+  "description": "Row above the prompt with 5h and 7d limits, context fill and shortcuts to the other panels. | Fila sobre el prompt con lo que queda de los límites de 5h y 7d y cuándo se reinician",
+  "author": {
+    "name": "Dani"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "keywords": [
+    "claude-code",
+    "usage-limits",
+    "rate-limits",
+    "context-window",
+    "statusline"
+  ]
+}
