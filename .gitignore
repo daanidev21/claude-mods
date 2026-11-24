@@ -1,0 +1,6 @@
+.DS_Store
+# Lo escribe el motor de Claude Code al cargar un mod
+**/.claude-plugin/types/
+*.tmp
+heatmap/ledger.json
+tsconfig.json

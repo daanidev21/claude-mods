@@ -1,0 +1,17 @@
+{
+  "name": "modelo-justo",
+  "version": "0.2.0",
+  "description": "Picks Haiku, Sonnet or Opus for each subagent by task, with a policy for Opus. | Elige Haiku, Sonnet u Opus para cada subagente según su tarea, con política para Opus",
+  "author": {
+    "name": "Dani"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "subagents",
+    "model-selection",
+    "haiku",
+    "sonnet",
+    "opus"
+  ]
+}

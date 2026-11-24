@@ -1,0 +1,17 @@
+{
+  "name": "ramas",
+  "version": "0.2.0",
+  "description": "Line graph of the repository's branches and commits, drawn from git log. | Gráfico de líneas con las ramas y los commits del repositorio actual",
+  "author": {
+    "name": "Dani"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "keywords": [
+    "claude-code",
+    "git",
+    "git-graph",
+    "branches",
+    "commits"
+  ]
+}

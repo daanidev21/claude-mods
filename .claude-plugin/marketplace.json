@@ -1,0 +1,123 @@
+{
+  "name": "claude-mods",
+  "description": "Claude Code plugins: usage limits, subagent monitor, model picker, activity heatmap, git branch graph and saved commands. Medidores de uso, paneles de actividad y elección de modelo para Claude Code.",
+  "owner": {
+    "name": "Dani"
+  },
+  "plugins": [
+    {
+      "name": "prompt-band",
+      "description": "Row above the prompt with 5h and 7d limits, context fill and shortcuts to the other panels. | Fila sobre el prompt con los límites de 5h y 7d, el relleno del contexto y atajos a los demás paneles.",
+      "version": "0.2.0",
+      "source": "./mods/prompt-band",
+      "category": "Uso y actividad",
+      "tags": [
+        "band",
+        "limits",
+        "context",
+        "claude-code",
+        "usage-limits",
+        "rate-limits",
+        "context-window",
+        "statusline"
+      ]
+    },
+    {
+      "name": "heatmap",
+      "description": "Activity map by day with streak and time per project, computed locally. | Mapa de actividad por días con racha y tiempo por proyecto, calculado en local.",
+      "version": "0.2.0",
+      "source": "./mods/heatmap",
+      "category": "Uso y actividad",
+      "tags": [
+        "pane",
+        "command",
+        "stats",
+        "claude-code",
+        "activity",
+        "productivity",
+        "heatmap",
+        "time-tracking"
+      ]
+    },
+    {
+      "name": "agent-radar",
+      "description": "One line above the prompt for each running subagent, plus a detail panel. | Una línea sobre el prompt por cada subagente en marcha y un panel con su detalle.",
+      "version": "0.1.0",
+      "source": "./mods/agent-radar",
+      "category": "Subagentes",
+      "tags": [
+        "band",
+        "pane",
+        "subagents",
+        "claude-code",
+        "monitor",
+        "agents"
+      ]
+    },
+    {
+      "name": "mission-control",
+      "description": "Subagent tree and the files each one touched. | Árbol de subagentes y archivos que ha tocado cada uno.",
+      "version": "0.1.0",
+      "source": "./mods/mission-control",
+      "category": "Subagentes",
+      "tags": [
+        "pane",
+        "command",
+        "subagents",
+        "claude-code",
+        "agent-tree",
+        "files"
+      ]
+    },
+    {
+      "name": "modelo-justo",
+      "description": "Picks Haiku, Sonnet or Opus for each subagent by task, with a policy for Opus. | Elige Haiku, Sonnet u Opus para cada subagente según su tarea, con política para Opus.",
+      "version": "0.2.0",
+      "source": "./mods/modelo-justo",
+      "category": "Modelos",
+      "tags": [
+        "pane",
+        "command",
+        "models",
+        "claude-code",
+        "subagents",
+        "model-selection",
+        "haiku",
+        "sonnet",
+        "opus"
+      ]
+    },
+    {
+      "name": "comandos",
+      "description": "Per-project command notebook with a copy button. | Bloc de notas de comandos por proyecto, con botón para copiar cada uno.",
+      "version": "0.1.0",
+      "source": "./mods/comandos",
+      "category": "Utilidades",
+      "tags": [
+        "pane",
+        "command",
+        "notes",
+        "claude-code",
+        "commands",
+        "snippets",
+        "clipboard"
+      ]
+    },
+    {
+      "name": "ramas",
+      "description": "Line graph of the repository's branches and commits, drawn from git log. | Gráfico de líneas con las ramas y los commits del repositorio, dibujado desde git log.",
+      "version": "0.2.0",
+      "source": "./mods/ramas",
+      "category": "Utilidades",
+      "tags": [
+        "pane",
+        "command",
+        "git",
+        "claude-code",
+        "git-graph",
+        "branches",
+        "commits"
+      ]
+    }
+  ]
+}

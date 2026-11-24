@@ -1,0 +1,17 @@
+{
+  "name": "comandos",
+  "version": "0.1.0",
+  "description": "Per-project command notebook with a copy button. | Bloc de notas de comandos por proyecto: un título, el comando debajo y un botón para copiarlo",
+  "author": {
+    "name": "Dani"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "keywords": [
+    "claude-code",
+    "commands",
+    "notes",
+    "snippets",
+    "clipboard"
+  ]
+}
